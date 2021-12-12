@@ -15,8 +15,8 @@ $message = "El asunto del mensaje es: " . $subject . " \r\n";
 $message = "Mensaje: " . $_POST['text'] . " \r\n";
 $message = "Enviado el: " . date('d/m/Y', time());
 
-$para = 'xxxxxxxxxxxxxxxxx@gmail.com';
-$asunto = 'Asunto del mensaje';
+$para = 'julprogram131@gmail.com';
+$asunto = 'Pedido de trabajo';
 
 mail($para, $asunto, utf8_decode($text), $header);
 
